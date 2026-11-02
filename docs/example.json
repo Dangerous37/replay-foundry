@@ -1,0 +1,24 @@
+{
+  "historicalGuard": false,
+  "recovery": "blind",
+  "attempts": [
+    {
+      "id": "a1",
+      "key": "TR-410",
+      "units": 125,
+      "outcome": "confirmed"
+    },
+    {
+      "id": "a2",
+      "key": "TR-411",
+      "units": 80,
+      "outcome": "lost_ack"
+    },
+    {
+      "id": "a3",
+      "key": "TR-412",
+      "units": 45,
+      "outcome": "rejected"
+    }
+  ]
+}
